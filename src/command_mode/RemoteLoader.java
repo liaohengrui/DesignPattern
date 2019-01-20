@@ -12,7 +12,7 @@ import command_mode.receiver.Light;
  * @date 2019/1/8
  */
 public class RemoteLoader {
-    public static void main(String[] args) {
+    public RemoteControl loader() {
         Light light = new Light();
         LightOnCommand lightOnCommand = new LightOnCommand();
         LightOFFCommand lightOffCommand = new LightOFFCommand();
@@ -21,10 +21,7 @@ public class RemoteLoader {
 
         RemoteControl control = new RemoteControl();
         control.setCommand(0, lightOnCommand, lightOffCommand);
+        return control;
 
-        System.out.println(control);
-        control.onButtonWasPushed(0);
-        control.offButtonWasPushed(0);
-        control.undoButtonWasPushed();
     }
 }
