@@ -7,5 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="javapoet-1.12.0-SNAPSHOT" level="project" />
   </component>
 </module>

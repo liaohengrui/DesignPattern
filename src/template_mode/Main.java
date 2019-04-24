@@ -11,6 +11,7 @@ public class Main {
         CaffeineBeverage beverage1 = new Tea();
         CaffeineBeverage beverage2 = new Coffee();
 
+
         beverage1.prepareRecipe();
         System.out.println("-------------------");
         beverage2.prepareRecipe();
