@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="javapoet-1.12.0-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/javapoet-1.12.0-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
